@@ -351,6 +351,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .nav__items {
     float: left;
+    margin-left: 20px;
     text-align: center;
     display: flex;
     list-style: none;
@@ -490,14 +491,15 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__image-box {
     margin-bottom: var(--gutter-normal);
-    max-width: 250px;
-    max-height: 250px;
 }
 
 @media(min-width: 901px) {
     .work__image-box {
-        flex: 1;
+        flex: 1 0 30%;
+        align-items: center;
         margin: 0 0 0 10rem;
+        max-width: 250px;
+        max-height: 250px;
     }
 }
 
@@ -505,18 +507,14 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Projects ----- */
 /* --------------------------------------- */
 
-.project__boxes {
-    column-count: 3;
-    column-gap: 40px;
-    column-rule-style: solid;
-    column-rule-width: 1px;
-    column-rule-color: white;
-}
-
 .project__box {
-    column-span: 1;
+    width: 33%;
     display: flex;
     align-items: center;
+}
+
+.project__text {
+    flex: 0 0 90%;
 }
 
 /* --------------------------------------- */
