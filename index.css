@@ -444,6 +444,7 @@ body:not(.user-is-tabbing) a:focus {
 .work__box {
     display: flex;
     align-items: center;
+    width: 400px
 }
 
 @media(max-width: 900px) {
@@ -478,17 +479,6 @@ body:not(.user-is-tabbing) a:focus {
     margin-bottom: var(--gutter-normal);
 }
 
-.work__code {
-    display: block;
-    height: 3rem;
-    margin-left: var(--gutter-normal);
-    transition: all .3s;
-}
-
-.work__code:hover {
-    transform: scale(1.2);
-}
-
 .work__image-box {
     margin-bottom: var(--gutter-normal);
 }
@@ -497,12 +487,6 @@ body:not(.user-is-tabbing) a:focus {
     .work__image-box {
         flex: 1;
         margin: 0 0 0 10rem;
-    }
-}
-
-@media(max-width: 900px) {
-    .work__code {
-        height: 4rem;
     }
 }
 
