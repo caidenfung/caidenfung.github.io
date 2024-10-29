@@ -343,8 +343,6 @@ body:not(.user-is-tabbing) a:focus {
     width: 100%;
     top: 0;
     left: 0;
-    margin-left: 20px;
-    margin-right: 20px;
     display: block;
     padding: var(--gutter-normal) 0;
     z-index: 100;
@@ -486,10 +484,6 @@ body:not(.user-is-tabbing) a:focus {
 .work__links {
     display: flex;
     align-items: center;
-}
-
-.work__text {
-    flex: 0 0 30%;
 }
 
 .work__list {
