@@ -337,7 +337,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .nav {
     background-color: var(--black);
-    justify-content: flex-start;
+    justify-content: center;
     position: fixed;
     margin: 0;
     width: 100%;
@@ -356,10 +356,6 @@ body:not(.user-is-tabbing) a:focus {
     text-align: left;
     display: flex;
     list-style: none;
-}
-
-.nav__items:first-child {
-    margin-left: auto;
 }
 
 .nav__item:not(:last-child) {
@@ -456,7 +452,7 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Work ----- */
 /* --------------------------------------- */
 
-.work__boxes {
+.worl__boxes {
     column-count: 3;
     column-gap: 40px;
     column-rule-style: solid;
