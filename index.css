@@ -441,7 +441,7 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Work ----- */
 /* --------------------------------------- */
 
-.work_boxes {
+.work__boxes {
     column-count: 2;
     column-gap: 40px;
     column-rule-style: solid;
