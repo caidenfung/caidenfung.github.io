@@ -562,6 +562,17 @@ body:not(.user-is-tabbing) a:focus {
     display: flex;
 }
 
+.about__social-links {
+    display: flex;
+    justify-content: left;
+    padding: var(--gutter-normal) 0;
+    list-style: none;
+}
+
+.about__social-link-item:not(:last-of-type) {
+    margin-right: var(--gutter-small);
+}
+
 /* --------------------------------------- */
 /* ----- Contact ----- */
 /* --------------------------------------- */
