@@ -336,6 +336,7 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .nav {
+    background-color: #000;
     position: fixed;
     display: flex;
     justify-content: flex-end;
@@ -344,7 +345,12 @@ body:not(.user-is-tabbing) a:focus {
 
 .nav__items {
     display: flex;
+    float: right;
     list-style: none;
+}
+
+.nav__item:first-child {
+    margin-right: auto;
 }
 
 .nav__item:not(:last-child) {
