@@ -351,7 +351,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .nav__items {
     float: right;
-    text-align: right;
+    text-align: left;
     display: flex;
     list-style: none;
 }
@@ -451,7 +451,7 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .work__boxes {
-    column-count: 2;
+    column-count: 3;
     column-gap: 40px;
     column-rule-style: solid;
     column-rule-width: 1px;
