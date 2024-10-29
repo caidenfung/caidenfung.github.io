@@ -343,6 +343,8 @@ body:not(.user-is-tabbing) a:focus {
     width: 100%;
     top: 0;
     left: 0;
+    margin-left: 20px;
+    margin-right: 20px;
     display: block;
     padding: var(--gutter-normal) 0;
     z-index: 100;
@@ -350,6 +352,13 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .nav__items {
+    float: right;
+    text-align: right;
+    display: flex;
+    list-style: none;
+}
+
+.nav__items:first-child {
     float: left;
     text-align: left;
     display: flex;
