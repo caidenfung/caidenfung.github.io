@@ -352,17 +352,14 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .nav__items {
-    float: right;
-    text-align: right;
+    float: left;
+    text-align: left;
     display: flex;
     list-style: none;
 }
 
 .nav__items:first-child {
-    float: left;
-    text-align: left;
-    display: flex;
-    list-style: none;
+    margin-left: auto;
 }
 
 .nav__item:not(:last-child) {
@@ -468,6 +465,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__box {
+    column-span: 1;
     display: flex;
     align-items: center;
 }
@@ -517,31 +515,7 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
-/* --------------------------------------- */
-/* ----- Clients ----- */
-/* --------------------------------------- */
 
-.client__logos {
-    display: flex;
-    justify-content: space-between;
-    filter: invert(100%) grayscale(100%) opacity(.8);
-}
-
-.client__logo {
-    height: 6.5rem;
-    max-width: 18rem;
-}
-
-@media(max-width: 1240px) {
-    .client__logos {
-        overflow-x: scroll;
-        padding: var(--gutter-normal);
-    }
-
-    .client__logo:not(:last-of-type) {
-        margin-right: var(--gutter-medium);
-    }
-}
 
 /* --------------------------------------- */
 /* ----- About ----- */
