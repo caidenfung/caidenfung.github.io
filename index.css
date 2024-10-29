@@ -342,6 +342,7 @@ body:not(.user-is-tabbing) a:focus {
     margin: 0;
     width: 100%;
     top: 0;
+    left: 0;
     display: block;
     padding: var(--gutter-normal) 0;
     box-shadow: 0 2px 4px 0 var(--white-1);
