@@ -359,7 +359,6 @@ body:not(.user-is-tabbing) a:focus {
 
 .nav__item:first-child {
     float: left;
-    margin-right: auto;
     justify-content: flex-start;
 }
 
