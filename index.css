@@ -338,7 +338,6 @@ body:not(.user-is-tabbing) a:focus {
 .nav {
     background-color: var(--black);
     position: fixed;
-    overflow: hidden;
     margin: 0;
     width: 100%;
     top: 0;
@@ -349,12 +348,17 @@ body:not(.user-is-tabbing) a:focus {
 
 .nav__items {
     display: flex;
-    justify-content: flex-end;
     list-style: none;
 }
 
 .nav__item:not(:last-child) {
     margin-right: var(--gutter-medium);
+}
+
+@media(max-width: 500px) {
+    .nav {
+        justify-content: flex-end;
+    }
 }
 
 @media(max-width: 400px) {
