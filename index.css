@@ -341,10 +341,6 @@ body:not(.user-is-tabbing) a:focus {
     overflow: hidden;
     margin: 0;
     width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 4px;
-    padding-bottom: 4px;
     top: 0;
     display: block;
     padding: var(--gutter-normal) 0;
