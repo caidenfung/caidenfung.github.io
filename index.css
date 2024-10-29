@@ -348,6 +348,7 @@ body:not(.user-is-tabbing) a:focus {
     top: 0;
     display: block;
     padding: var(--gutter-normal) 0;
+    box-shadow: 0 2px 4px 0 var(--white-1);
 }
 
 .nav__items {
@@ -359,6 +360,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .nav__item:first-child {
     float: left;
+    margin-right: auto;
     justify-content: flex-start;
 }
 
