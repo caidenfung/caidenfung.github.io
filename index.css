@@ -350,7 +350,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .nav__items {
-    float: right;
+    float: left;
     text-align: left;
     display: flex;
     list-style: none;
