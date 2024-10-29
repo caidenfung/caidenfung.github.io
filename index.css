@@ -441,10 +441,18 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Work ----- */
 /* --------------------------------------- */
 
+.work_boxes {
+    column-count: 2;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: white;
+}
+
 .work__box {
     display: flex;
     align-items: center;
-    width: 400px;
+    width: 800px;
 }
 
 @media(max-width: 900px) {
