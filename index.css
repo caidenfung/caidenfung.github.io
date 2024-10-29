@@ -336,8 +336,11 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .nav {
-    background-color: #000;
+    background: var(--black);
     position: fixed;
+    overflow: hidden;
+    margin: 0;
+    top: 0;
     display: block;
     justify-content: flex-end;
     padding: var(--gutter-normal) 0;
