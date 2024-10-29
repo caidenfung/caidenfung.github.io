@@ -354,9 +354,9 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .nav__items {
-    float: left;
+    float: right;
     margin-left: 20px;
-    text-align: center;
+    text-align: justify;
     display: flex;
     list-style: none;
 }
@@ -502,8 +502,6 @@ body:not(.user-is-tabbing) a:focus {
         flex: 1 0 30%;
         align-items: center;
         margin: 0 0 0 10rem;
-        min-width: 250px;
-        min-height: 250px;
         max-width: 250px;
         max-height: 250px;
     }
@@ -515,7 +513,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .project__boxes {
     column-count: 3;
-    column-gap: 20px;
+    column-gap: 50px;
     column-rule-style: solid;
     column-rule-width: 1px;
     column-rule-color: white;
@@ -558,6 +556,10 @@ body:not(.user-is-tabbing) a:focus {
         flex: 1;
         margin: 0 var(--gutter-huge) 0 0;
     }
+}
+
+.regular__text {
+    display: flex;
 }
 
 /* --------------------------------------- */
