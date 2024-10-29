@@ -351,6 +351,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .nav__items {
     float: left;
+    text-align: center;
     display: flex;
     list-style: none;
 }
@@ -449,14 +450,6 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Work ----- */
 /* --------------------------------------- */
 
-.worl__boxes {
-    column-count: 3;
-    column-gap: 40px;
-    column-rule-style: solid;
-    column-rule-width: 1px;
-    column-rule-color: white;
-}
-
 .work__box {
     column-span: 1;
     display: flex;
@@ -512,8 +505,19 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Projects ----- */
 /* --------------------------------------- */
 
-.project__text {
-    flex: 0 0 33%;
+.project__boxes {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: white;
+}
+
+.project__box {
+    width: 33%;
+    column-span: 1;
+    display: flex;
+    align-items: center;
 }
 
 /* --------------------------------------- */
