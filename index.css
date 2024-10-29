@@ -343,6 +343,7 @@ body:not(.user-is-tabbing) a:focus {
     width: 100%;
     top: 0;
     left: 0;
+    right: 0;
     display: block;
     padding: var(--gutter-normal) 0;
     box-shadow: 0 2px 4px 0 var(--white-1);
@@ -423,7 +424,6 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .header__text {
-    position: absolute;
     top: 50%;
     transform: translateY(-50%);
 }
