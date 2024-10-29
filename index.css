@@ -343,6 +343,10 @@ body:not(.user-is-tabbing) a:focus {
     width: 100%;
     top: 0;
     left: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 2px;
     display: flex;
     padding: var(--gutter-normal) 0;
     z-index: 100;
@@ -498,6 +502,8 @@ body:not(.user-is-tabbing) a:focus {
         flex: 1 0 30%;
         align-items: center;
         margin: 0 0 0 10rem;
+        min-width: 250px;
+        min-height: 250px;
         max-width: 250px;
         max-height: 250px;
     }
@@ -516,6 +522,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .project__box {
+    break-inside: avoid;
     column-span: 0;
     display: flex;
     align-items: center;
