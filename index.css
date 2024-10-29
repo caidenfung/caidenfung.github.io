@@ -351,7 +351,6 @@ body:not(.user-is-tabbing) a:focus {
 
 .nav__items {
     float: left;
-    text-align: left;
     display: flex;
     list-style: none;
 }
@@ -486,6 +485,10 @@ body:not(.user-is-tabbing) a:focus {
     align-items: center;
 }
 
+.work__text {
+    flex: 0 0 70%;
+}
+
 .work__list {
     /* list-style-type: square; */
     list-style-position: inside;
@@ -494,18 +497,24 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__image-box {
     margin-bottom: var(--gutter-normal);
-    width: 250px;
-    height: 250px;
+    max-width: 250px;
+    max-height: 250px;
 }
 
 @media(min-width: 901px) {
     .work__image-box {
         flex: 1;
-        margin: 0 0 0 0rem;
+        margin: 0 0 0 10rem;
     }
 }
 
+/* --------------------------------------- */
+/* ----- Projects ----- */
+/* --------------------------------------- */
 
+.project__text {
+    flex: 0 0 33%;
+}
 
 /* --------------------------------------- */
 /* ----- About ----- */
