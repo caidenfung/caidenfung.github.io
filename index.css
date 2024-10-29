@@ -337,7 +337,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .nav {
     background-color: var(--black);
-    justify-content: center;
+    justify-content: right;
     position: fixed;
     margin: 0;
     width: 100%;
@@ -354,7 +354,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .nav__items {
-    float: right;
+    float: left;
     margin-left: 20px;
     text-align: justify;
     display: flex;
