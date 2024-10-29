@@ -348,7 +348,6 @@ body:not(.user-is-tabbing) a:focus {
     top: 0;
     display: block;
     justify-content: flex-end;
-    padding: var(--gutter-normal) 0;
 }
 
 .nav__items {
@@ -365,18 +364,6 @@ body:not(.user-is-tabbing) a:focus {
 
 .nav__item:not(:last-child) {
     margin-right: var(--gutter-medium);
-}
-
-@media(max-width: 500px) {
-    .nav {
-        justify-content: center;
-    }
-}
-
-@media(max-width: 400px) {
-    .nav__item:not(:last-child) {
-        margin-right: var(--gutter-normal);
-    }
 }
 
 @media(max-width: 300px) {
